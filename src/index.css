@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset default margins and ensure full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Use a more reliable full-height approach */
+  body, #root {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  /* For modern browsers */
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  /* Ensure the app container takes full height */
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* If using React, ensure root div takes full height */
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
